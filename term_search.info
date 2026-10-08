@@ -1,7 +1,11 @@
 name = Term Search
-description = Search taxonomy terms as rendered by Drupal (with fields).
+description = Search taxonomy terms as rendered by Backdrop (with fields).
 package = Search
-core = 7.x
+backdrop = 1.x
+type = module
+
 dependencies[] = taxonomy
 dependencies[] = search
 dependencies[] = field
+
+configure = admin/config/search/settings
